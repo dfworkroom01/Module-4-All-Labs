@@ -1,0 +1,3 @@
+This is a web store based on the Fake Store API https://fakestoreapi.com/products
+The API does not require an API key.
+The folder icons is to aid the filtering functions as each png file reflect the category attached to the image url provided by the API. 
