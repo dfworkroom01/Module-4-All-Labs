@@ -1,0 +1,57 @@
+.electronics {
+    color: #06305e; 
+    font-weight: bold;
+}
+
+.jewelery {
+    color: #06305e; 
+    font-weight: bold;
+}
+
+.men-clothing {
+    color: #06305e; 
+    font-weight: bold;
+}
+
+.women-clothing {
+    color: #06305e; 
+    font-weight: bold
+}
+
+.card-category {
+    font-size: 1.2rem; /* Larger font size for category header */
+    font-weight: bold; /* Bold for emphasis */
+    margin-bottom: 10px; /* Space below the category header */
+}
+
+/* Existing styles */
+.card {
+    width: 100%; /* Ensure cards take full width */
+    max-width: 300px; /* Set a maximum width for uniformity */
+    margin: auto; /* Center the cards */
+    border: 1px solid #ddd; /* Optional: Add border for clarity */
+    border-radius: 8px; /* Optional: Rounded corners */
+    overflow: hidden; /* Hide overflow to maintain shape */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    width: 100%; /* Full width to fill the card */
+    object-fit: contain; /* Ensure the image is contained within the given dimensions */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column; /* Stack contents vertically */
+    justify-content: space-between; /* Space between title, price, and description */
+    padding: 15px; /* Add some padding for aesthetics */
+}
+
+.card-title {
+    font-size: 1.1rem; /* Adjust font size for uniformity */
+}
+
+.card-text {
+    font-size: 0.9rem; /* Adjust font size for description */
+    margin-bottom: 0; /* Remove bottom margin */
+}
